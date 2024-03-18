@@ -33,7 +33,7 @@ st.sidebar.markdown("<br>", unsafe_allow_html= True)
 st.sidebar.subheader('Input Variables', divider = True)
 rd_spend = st.sidebar.number_input('Research And Development Expense')
 admin = st.sidebar.number_input('Administrative Expense')
-mkt = st.sidebar.number_input('Marketing Expense')cd 
+mkt = st.sidebar.number_input('Marketing Expense')
 
 # to confirm if the scalers has been transformed:   
 st.markdown("<br>", unsafe_allow_html= True)
